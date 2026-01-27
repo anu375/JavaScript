@@ -20,3 +20,12 @@ console.log("********************");
 let user = { name: "Shawrya", age: 22 };
 let newUser = {...user, city: "Nashik" };
 console.log(newUser);
+
+console.log("********************");
+
+let nums = [5, 10, 15];
+
+function add(a, b, c) {
+    return a + b + c;
+}
+console.log(add(...nums));
