@@ -3,7 +3,10 @@ const user1 = {
     age: 22
 };
 
+
 Object.seal(user1);
+
+console.log(Object.isSealed(user1));
 
 user1.age = 23;
 

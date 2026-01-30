@@ -6,6 +6,9 @@ const obj = {
 };
 
 Object.freeze(obj);
+
+console.log(Object.isSealed(obj));
+
 obj.address.city = "Pune";
 
 console.log(obj);
